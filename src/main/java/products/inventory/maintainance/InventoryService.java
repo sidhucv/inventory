@@ -22,7 +22,6 @@ public class InventoryService {
     @ResponseBody
     public String add( @RequestParam String name,@RequestParam String costPrice, @RequestParam String sellingPrice)
     {
-        System.out.println("inside ****************");
 
         //setting Default quantity 1
         int quantity =1;
